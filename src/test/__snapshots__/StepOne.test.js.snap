@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Step One should render correctly 1`] = `
+<div
+  className="step-detail"
+>
+  <div>
+    <span
+      className="title"
+    >
+      Please select a meal
+    </span>
+    <select
+      className="meal"
+      onChange={[Function]}
+      value=""
+    >
+      <option
+        value=""
+      >
+        ...
+      </option>
+    </select>
+  </div>
+  <div>
+    <span
+      className="title"
+    >
+      Please Enter Number of people
+    </span>
+    <input
+      className="number-meal"
+      max={10}
+      min="1"
+      onChange={[Function]}
+      type="number"
+      value={1}
+    />
+  </div>
+  <div
+    className="nav-step"
+  >
+    <button
+      className="next"
+      onClick={[Function]}
+    >
+      Next
+    </button>
+  </div>
+</div>
+`;

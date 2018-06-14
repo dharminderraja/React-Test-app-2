@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`form order should render correctly 1`] = `
+<div
+  className="order"
+>
+  <div
+    className="tabs"
+  >
+    <div
+      className="active"
+      onClick={[Function]}
+    >
+      Step 1
+    </div>
+    <div
+      className=""
+      onClick={[Function]}
+    >
+      Step 2
+    </div>
+    <div
+      className=""
+      onClick={[Function]}
+    >
+      Step 3
+    </div>
+    <div
+      className=""
+      onClick={[Function]}
+    >
+      Review
+    </div>
+  </div>
+  <div
+    className="steps"
+  >
+    <div
+      className="step-detail"
+    >
+      <div>
+        <span
+          className="title"
+        >
+          Please select a meal
+        </span>
+        <select
+          className="meal"
+          onChange={[Function]}
+          value=""
+        >
+          <option
+            value=""
+          >
+            ...
+          </option>
+          <option
+            value="lunch"
+          >
+            lunch
+          </option>
+          <option
+            value="dinner"
+          >
+            dinner
+          </option>
+          <option
+            value="breakfast"
+          >
+            breakfast
+          </option>
+        </select>
+      </div>
+      <div>
+        <span
+          className="title"
+        >
+          Please Enter Number of people
+        </span>
+        <input
+          className="number-meal"
+          max={10}
+          min="1"
+          onChange={[Function]}
+          type="number"
+          value={1}
+        />
+      </div>
+      <div
+        className="nav-step"
+      >
+        <button
+          className="next"
+          onClick={[Function]}
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

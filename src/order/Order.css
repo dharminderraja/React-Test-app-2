@@ -1,0 +1,89 @@
+.order {
+  margin-top: 20px;
+}
+
+.order .tabs > div {
+  display: inline-block;
+  border: 1px solid;
+  padding: 5px 16px;
+  cursor: pointer;
+}
+
+.order .tabs > div.active {
+  background-color: cornflowerblue;
+  cursor: inherit;
+}
+
+.order .steps {
+  margin-top: 40px;
+}
+
+.steps .step-detail {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.step-detail .title {
+  display: block;
+  margin: 10px 0;
+}
+.step-detail .meal {
+  height: 25px;
+  width: auto;
+  padding: 0 10px;
+}
+.step-detail .number-meal {
+  width: 50px;
+}
+
+.step-detail .nav-step {
+  margin-top: 70px;
+}
+
+.step-detail .nav-step .next {
+  float: right;
+}
+.step-detail .nav-step .prev {
+  float: left;
+}
+.step-detail .alert-warning {
+  font-size: 14px;
+  padding: 7px 0;
+  color: red;
+  display: block;
+}
+
+.step-detail .add-dish {
+  margin-top: 50px;
+}
+
+.step-detail .pick-dish {
+  clear: both;
+}
+
+.pick-dish .left {
+  float: left;
+}
+
+.pick-dish .right {
+  float: right;
+}
+
+.pick-dish .clear {
+  clear: both;
+}
+
+.review-title {
+  width: 250px;
+  display: inline-block;
+  margin: 10px 0;
+}
+
+.dish-item {
+  display: block;
+}
+.review-dishes {
+  display: inline-block;
+  vertical-align: text-top;
+}

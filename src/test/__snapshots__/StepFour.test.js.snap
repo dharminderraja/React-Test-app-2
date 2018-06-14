@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Step Three should render correctly 1`] = `
+<div
+  className="step-detail"
+>
+  <div>
+    <span
+      className="review-title"
+    >
+      Meal
+    </span>
+    <span
+      className="review-value"
+    >
+      
+    </span>
+  </div>
+  <div>
+    <span
+      className="review-title"
+    >
+      No of People
+    </span>
+    <span
+      className="review-value"
+    >
+      
+    </span>
+  </div>
+  <div>
+    <span
+      className="review-title"
+    >
+      Restaurant
+    </span>
+    <span
+      className="review-value"
+    >
+      
+    </span>
+  </div>
+  <div>
+    <span
+      className="review-title"
+    >
+      Dishes
+    </span>
+    <div
+      className="review-dishes"
+    />
+  </div>
+  <div
+    className="nav-step"
+  >
+    <button
+      className="prev"
+      onClick={[Function]}
+    >
+      Previous
+    </button>
+    <button
+      className="next"
+      onClick={[Function]}
+    >
+      Submit
+    </button>
+  </div>
+</div>
+`;
